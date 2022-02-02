@@ -81,13 +81,26 @@
 #define Z_STEP_PIN                          PB5
 #define Z_DIR_PIN                           PB4
 
-#define E0_ENABLE_PIN                       PB3
-#define E0_STEP_PIN                         PD6
-#define E0_DIR_PIN                          PD3
 
-#define E1_ENABLE_PIN                       PA3
-#define E1_STEP_PIN                         PD15
-#define E1_DIR_PIN                          PA1
+//Замена в качестве теста E0 на E1
+//#define E0_ENABLE_PIN                       PB3
+//#define E0_STEP_PIN                         PD6
+//#define E0_DIR_PIN                          PD3
+//
+//#define E1_ENABLE_PIN                       PA3
+//#define E1_STEP_PIN                         PD15
+//#define E1_DIR_PIN                          PA1
+
+#define E0_ENABLE_PIN                       PA3
+#define E0_STEP_PIN                         PD15
+#define E0_DIR_PIN                          PA1
+
+#define E1_ENABLE_PIN                       PB3
+#define E1_STEP_PIN                         PD6
+#define E1_DIR_PIN                          PD3
+
+
+
 
 #if HAS_TMC_UART
   //
